@@ -41,7 +41,6 @@ function App() {
     <Router>
       <ThemeProvider theme={theme}>
         <AppMain>
-          {/* Utilise RoutesPages ici pour inclure toutes les routes */}
           <RoutesPages />
         </AppMain>
       </ThemeProvider>
